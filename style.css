@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Background color as black */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.header-text {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: #fff; /* White text */
+}
+
+.form-container {
+    background-color: #111; /* Darker form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* White shadow */
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: #222; /* Darker input background */
+    border: 1px solid #555; /* Border color */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    color: #fff; /* Text color */
+    font-size: 16px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #bbb; /* Placeholder text color */
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    background-color: #555; /* Button background */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Button text color */
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #777; /* Button hover effect */
+}
